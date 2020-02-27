@@ -84,8 +84,8 @@ While in a **Multi node cluster**, there are more than one DataNode running and 
         export YARN_HOME=$HADOOP_HOME
         export HADOOP_USER_CLASSPATH_FIRST=true
 
-        alias hadoop=$HADOOP_HOME/bin/./hadoop #for convenience
-        alias hdfs=$HADOOP_HOME/bin/./hdfs #for convenience
+        alias hadoop=$HADOOP_HOME/bin/hadoop #for convenience  #alias hadoop=$HADOOP_HOME/bin/./hadoop
+        alias hdfs=$HADOOP_HOME/bin/hdfs     #for convenience    #alias hdfs=$HADOOP_HOME/bin/./hdfs
 
         #done
 
