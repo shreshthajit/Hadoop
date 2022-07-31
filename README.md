@@ -2,6 +2,13 @@
 Hadoop is an open-source software framework for storing data and running applications on clusters of commodity hardware.
 We can run hadoop using docker.
 
+first go to root user:
+```
+sudo su
+
+```
+
+
 docker problems:
 [Problem](https://stackoverflow.com/questions/49278020/docker-cannot-start-service-as-already-exists)
 ```
