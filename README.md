@@ -2,6 +2,7 @@
 Hadoop is an open-source software framework for storing data and running applications on clusters of commodity hardware.
 We can run hadoop using docker.
 
+/home/shreshthajit/docker-hadoop# docker cp ../Desktop/hadoop-mapreduce-examples-2.7.1-sources.jar 013d76107704:hadoop-mapreduce-examples-2.7.1-sources.jar
 first go to root user:
 ```
 sudo su
