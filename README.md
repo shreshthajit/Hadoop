@@ -2,6 +2,11 @@
 Hadoop is an open-source software framework for storing data and running applications on clusters of commodity hardware.
 We can run hadoop using docker.
 
+questions:
+[Link](https://github.com/Katy-katy/Web-log-analysis-using-MapReduce-Python/blob/master/README.md)
+
+
+
 /home/shreshthajit/docker-hadoop# docker cp ../Desktop/hadoop-mapreduce-examples-2.7.1-sources.jar 013d76107704:hadoop-mapreduce-examples-2.7.1-sources.jar
 first go to root user:
 ```
