@@ -1,4 +1,7 @@
 # Hadoop
+
+### if package is not showing than we can make that folder mark directory as root folder and we will see the package option.
+
 Hadoop is an open-source software framework for storing data and running applications on clusters of commodity hardware.
 We can run hadoop using docker.
 
