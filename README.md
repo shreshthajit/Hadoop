@@ -5,6 +5,8 @@
 Hadoop is an open-source software framework for storing data and running applications on clusters of commodity hardware.
 We can run hadoop using docker.
 
+[set up hadoop cluster](https://shortcut.com/developer-how-to/how-to-set-up-a-hadoop-cluster-in-docker)
+
 mapreduce program link:
 [youtube](https://www.youtube.com/watch?v=RGd5nLlUNTc)
 
