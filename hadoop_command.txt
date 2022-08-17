@@ -1,0 +1,52 @@
+we docker-hadoop is not downloaded then it should be downloaded from github
+
+then in terminal we should go through the following command:
+sudo su  //because docker-hadoop is situated in root
+cd docker-hadoop //
+docker-compose up -d
+docker ps
+docker exec -it namenode bash
+echo "Hello" >input.txt
+echo "Hello" >input.txt
+echo "World" >input.txt
+echo "World" >input.txt
+cd tmp
+hadoop fs -mkdir -p input
+hdfs dfs -put input.txt /user/root/input/ 
+
+docker cp ../Desktop/hadoop-mapreduce-examples-2.7.1-sources.jar namenode:/tmp/
+hadoop jar hadoop-mapreduce-examples-2.7.1-sources.jar /user/root/input/input.txt /user/root/output
+
+hdfs dfs -cat /root/user/output/part-r-00000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
